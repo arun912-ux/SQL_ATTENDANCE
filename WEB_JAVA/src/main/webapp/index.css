@@ -1,0 +1,22 @@
+
+body{
+    background-color: beige;
+
+}
+
+#container{
+
+    background-color: aqua;
+    width: 250px;
+    /* height: 100px; */
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: Calibri, sans-serif;
+
+
+}
+
+
