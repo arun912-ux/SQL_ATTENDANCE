@@ -1,0 +1,12 @@
+if no record found:
+-> create new record with insert into values(id, intime, null)
+
+
+
+
+if record found:
+-> if intime is not null and outime is null:
+-> -> update table set outtime = now()
+
+-> else if intime is not null and outtime is not null:
+-> -> create new record with insert into (id, now(), null)
